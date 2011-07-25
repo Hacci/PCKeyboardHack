@@ -31,6 +31,15 @@ private:
       JIS_KANA = 0x88,
       JIS_NFER = 0x8b,
       JIS_XFER = 0x8a,
+
+      //Haci
+      COLON    = 0x34,		//08.6.10 KE
+      OPTION_L = 0xe2,		//08.6.10
+      OPTION_R = 0xe6,		//08.6.10
+      ENTER    = 0x58,		//08.7.14 10key
+      CONTROL_L = 0xe0,		//2011.07.25
+      CONTROL_R = 0xe4,		//2011.07.25
+
     };
     static Value bridgeKeyindexToValue(int bridgeKeyIndex) {
       switch (bridgeKeyIndex) {
@@ -38,6 +47,12 @@ private:
         case BRIDGE_KEY_INDEX_JIS_KANA: return JIS_KANA;
         case BRIDGE_KEY_INDEX_JIS_NFER: return JIS_NFER;
         case BRIDGE_KEY_INDEX_JIS_XFER: return JIS_XFER;
+        case BRIDGE_KEY_INDEX_COLON: return COLON;         //2011.07.25 Haci
+        case BRIDGE_KEY_INDEX_OPTION_L: return OPTION_L;   //2011.07.25 Haci
+        case BRIDGE_KEY_INDEX_OPTION_R: return OPTION_R;   //2011.07.25 Haci
+        case BRIDGE_KEY_INDEX_ENTER: return ENTER;         //2011.07.25 Haci
+        case BRIDGE_KEY_INDEX_CONTROL_L: return CONTROL_L; //2011.07.25 Haci
+        case BRIDGE_KEY_INDEX_CONTROL_R: return CONTROL_R; //2011.07.25 Haci
       }
       return NONE;
     }
