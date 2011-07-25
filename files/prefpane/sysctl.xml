@@ -18,18 +18,18 @@
       <name>For Japanese</name>
       <list>
         <item>
-          <name>Enable XFER Key</name>
-          <enable>enable_jis_xfer</enable>
-          <keycode>keycode_jis_xfer</keycode>
-          <default>104</default>
-          <appendix>KANA</appendix>
-        </item>
-        <item>
-          <name>Enable NFER Key</name>
+          <name>Enable NFER Key</name><!-- 08.7.9 キーボードに合わせて順番を変える。左側の方が先。 Haci -->
           <enable>enable_jis_nfer</enable>
           <keycode>keycode_jis_nfer</keycode>
           <default>102</default>
           <appendix>EISUU</appendix>
+        </item>
+        <item>
+          <name>Enable XFER Key</name><!-- 08.7.9 キーボードに合わせて順番を変える。 Haci -->
+          <enable>enable_jis_xfer</enable>
+          <keycode>keycode_jis_xfer</keycode>
+          <default>104</default>
+          <appendix>KANA</appendix>
         </item>
         <item>
           <name>Enable KANA Key</name>
@@ -37,6 +37,44 @@
           <keycode>keycode_jis_kana</keycode>
           <default>54</default>
           <appendix>Command_R</appendix>
+        </item>
+
+        <item>
+          <name>Change Control_L</name><!-- 2011.07.24 Haci -->
+          <enable>enable_control_l</enable>
+          <keycode>keycode_control_l</keycode>
+          <default>55</default>
+          <appendix>Command_L</appendix>
+        </item>
+        <item>
+          <name>Change Control_R</name><!-- 2011.07.24 Haci -->
+          <enable>enable_control_r</enable>
+          <keycode>keycode_control_r</keycode>
+          <default>54</default>
+          <appendix>Command_R</appendix>
+        </item>
+        <item>
+          <name>Change Alt_L</name><!-- 08.7.9 Haci -->
+          <enable>enable_option_l</enable>
+          <keycode>keycode_option_l</keycode>
+          <default>55</default>
+          <appendix>Command_L</appendix>
+        </item>
+
+        <item>
+          <name>Change Alt_R</name><!-- 08.6.10 Haci -->
+          <enable>enable_option_r</enable>
+          <keycode>keycode_option_r</keycode>
+          <default>39</default>
+          <appendix>COLON,QUOTE,KE</appendix>
+        </item>
+
+        <item>
+          <name>Change Enter</name><!-- 08.7.14 Haci -->
+          <enable>enable_enter</enable>
+          <keycode>keycode_enter</keycode>
+          <default>71</default>
+          <appendix>Clear</appendix>
         </item>
       </list>
     </item>
