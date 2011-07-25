@@ -33,6 +33,22 @@
   bridgestruct.enabled[BRIDGE_KEY_INDEX_JIS_XFER] = [preferencesmanager value:@"enable_jis_xfer"];
   bridgestruct.keycode[BRIDGE_KEY_INDEX_JIS_XFER] = [preferencesmanager value:@"keycode_jis_xfer"];
 
+  bridgestruct.enabled[BRIDGE_KEY_INDEX_COLON] = [preferencesmanager value:@"enable_colon"];  //2011.07.25
+  bridgestruct.keycode[BRIDGE_KEY_INDEX_COLON] = [preferencesmanager value:@"keycode_colon"]; //2011.07.25
+	
+  bridgestruct.enabled[BRIDGE_KEY_INDEX_OPTION_L] = [preferencesmanager value:@"enable_option_l"];  //2011.07.25
+  bridgestruct.keycode[BRIDGE_KEY_INDEX_OPTION_L] = [preferencesmanager value:@"keycode_option_l"]; //2011.07.25
+  bridgestruct.enabled[BRIDGE_KEY_INDEX_OPTION_R] = [preferencesmanager value:@"enable_option_r"];  //2011.07.25
+  bridgestruct.keycode[BRIDGE_KEY_INDEX_OPTION_R] = [preferencesmanager value:@"keycode_option_r"]; //2011.07.25
+
+  bridgestruct.enabled[BRIDGE_KEY_INDEX_ENTER] = [preferencesmanager value:@"enable_enter"];  //2011.07.25
+  bridgestruct.keycode[BRIDGE_KEY_INDEX_ENTER] = [preferencesmanager value:@"keycode_enter"]; //2011.07.25
+		
+  bridgestruct.enabled[BRIDGE_KEY_INDEX_CONTROL_L] = [preferencesmanager value:@"enable_control_l"];  //2011.07.25
+  bridgestruct.keycode[BRIDGE_KEY_INDEX_CONTROL_L] = [preferencesmanager value:@"keycode_control_l"]; //2011.07.25
+  bridgestruct.enabled[BRIDGE_KEY_INDEX_CONTROL_R] = [preferencesmanager value:@"enable_control_r"];  //2011.07.25
+  bridgestruct.keycode[BRIDGE_KEY_INDEX_CONTROL_R] = [preferencesmanager value:@"keycode_control_r"]; //2011.07.25
+
   [UserClient_userspace synchronized_communication:&bridgestruct];
 }
 
