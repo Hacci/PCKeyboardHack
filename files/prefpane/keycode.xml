@@ -21,6 +21,8 @@
     <item><name>------------------------------------------------------------</name><keycode>-----</keycode></item>
 
     <item><name>Backquote(`)</name><keycode>50</keycode></item>
+    <item><name>COLON,QUOTE,KE</name><keycode>39</keycode></item><!-- 2011.07.24 Haci -->
+    <item><name>JIS_BackSlash</name><keycode>94</keycode></item><!-- 2011.07.24 Haci -->
 
     <item><name>------------------------------------------------------------</name><keycode>-----</keycode></item>
 
@@ -49,6 +51,8 @@
     <item><name>Expose</name><keycode>160</keycode></item>
 
     <item><name>------------------------------------------------------------</name><keycode>-----</keycode></item>
+
+    <item><name>Clear</name><keycode>71</keycode></item><!-- 2011.07.24 Haci -->
 
     <item><name>PC Application Key</name><keycode>110</keycode></item>
 
